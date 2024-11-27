@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 90%;
+  max-width: 1600px; /* Max width of container */
+  margin-top: 20px;
+  border: 2px solid #ddd; /* Border around the container */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  background-color: white; /* White background for the entire container */
+}
+
+.transaction-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.section {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 1px solid #ddd; /* Border for each section */
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.transaction-history {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.transaction-history .transaction-section {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-history h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.transaction-history .withdrawal {
+  border-left: 4px solid red;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.transaction-history .deposit {
+  border-left: 4px solid green;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.transaction-history .transaction p {
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.transaction-history .transactions-list {
+  padding: 10px;
+  background-color: #e8f5e9;
+  border-left: 4px solid #8bc34a;
+}
+
+.transaction-history .transaction {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
